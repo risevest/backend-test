@@ -25,10 +25,10 @@ Create an API that serves as an cloud backup system
 - Revokable session management
 - Multiple admin reviews before file is deleted
 
-
-## Authentication and Session Management
-1. Use redis as your session store.
-3. Authentication and Authorization for admin and user accounts should be done using `Bearer token` and `JWT`.
+## How to pick what to work on
+At minimum you must implement everything in simple mode. You're free to pick and choose what else you
+implement along side it. The harder the task, the better your chances. Though make sure to finish the **Simple Mode**
+first.
 
 ## Tools/Stack
 
@@ -37,22 +37,25 @@ Create an API that serves as an cloud backup system
 - Redis
 - Docker
 - Postman
+- S3 or any other shared cloud storage provider
 
 ## Tests
 
 Unit tests are a must, submissions without tests will be ignored.
 
-## Submission
-
-1. Your API endpoints should be well documented in POSTMAN.
-3. Code should be hosted on a git repository, Github preferably.
-4. The API should be hosted on a live server (e.g. https://heroku.com)
-5. Your app should be `containerized` using `docker`.
 
 ## Time Duration
 
 7 days
 
-## NB:
+## Submission
 
-Please send an email to acknowledge the receipt of this document.
+1. Your API endpoints should be well documented in POSTMAN.
+2. Code should be hosted on a git repository, Github preferably.
+3. The API should be hosted on a live server (e.g. https://heroku.com)
+4. Your app should be `containerized` using `docker`.
+5. Share with us through email the:
+    - Repository
+    - Hosted API URL
+    - Postman Collection
+    - A list of tasks you did beyond **Simple Mode**
